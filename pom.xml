@@ -42,14 +42,14 @@
                 <configuration>
                     <keepRunning>true</keepRunning>
                     <dir>target/classes</dir>
-                    <params>--port=9080 --verbose</params>
+                    <params>--port=9080 --verbose --global-response-templating</params>
                 </configuration>
 
                 <dependencies>
                     <dependency>
                         <groupId>org.wiremock</groupId>
                         <artifactId>wiremock</artifactId>
-                        <version>3.12.0</version>
+                        <version>3.13.0</version>
                     </dependency>
                 </dependencies>
             </plugin>
